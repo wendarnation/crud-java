@@ -14,11 +14,11 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
--- Volcando estructura de base de datos para bbddcrudjava
-CREATE DATABASE IF NOT EXISTS `bbddcrudjava` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_uca1400_ai_ci */;
+-- Volcando estructura de base de datos para dbcrudjava
+CREATE DATABASE IF NOT EXISTS `dbcrudjava` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_uca1400_ai_ci */;
 USE `dbcrudjava`;
 
--- Volcando estructura para tabla bbddcrudjava.productos
+-- Volcando estructura para tabla dbcrudjava.productos
 CREATE TABLE IF NOT EXISTS `productos` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(255) DEFAULT NULL,
